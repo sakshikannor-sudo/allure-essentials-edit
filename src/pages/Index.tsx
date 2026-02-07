@@ -6,6 +6,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import FeaturedBrands from "@/components/FeaturedBrands";
 import CustomerReviews from "@/components/CustomerReviews";
 import NewsletterFooter from "@/components/NewsletterFooter";
+import Chatbot from "@/components/Chatbot";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <FeaturedBrands />
       <CustomerReviews />
       <NewsletterFooter />
+      <Chatbot />
     </div>
   );
 };
