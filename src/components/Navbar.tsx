@@ -30,7 +30,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <a href="#" className="font-display text-2xl font-bold tracking-luxe text-foreground">
-              MAISON
+              SK BAGS
             </a>
 
             {/* Desktop Nav */}
@@ -82,7 +82,7 @@ const Navbar = () => {
             className="fixed inset-0 z-[100] bg-background"
           >
             <div className="flex items-center justify-between px-6 h-20">
-              <span className="font-display text-2xl font-bold tracking-luxe">MAISON</span>
+              <span className="font-display text-2xl font-bold tracking-luxe">SK BAGS</span>
               <button onClick={() => setMenuOpen(false)}>
                 <X size={24} />
               </button>

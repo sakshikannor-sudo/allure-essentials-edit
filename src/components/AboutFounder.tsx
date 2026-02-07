@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import founderImg from "@/assets/founder.jpg";
+import founderImg from "@/assets/founder-sakshi.jpg";
 
 const AboutFounder = () => {
   const ref = useRef(null);
@@ -20,7 +20,7 @@ const AboutFounder = () => {
             <div className="aspect-[3/4] overflow-hidden">
               <img
                 src={founderImg}
-                alt="Founder and Creative Director"
+                alt="Sakshi Kannor — Founder of SK Bags"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -36,22 +36,25 @@ const AboutFounder = () => {
             <p className="font-body text-xs tracking-luxe uppercase text-accent mb-4">
               The Visionary
             </p>
-            <h2 className="font-display text-4xl md:text-5xl text-foreground mb-6">
-              Meet Our Founder
+            <h2 className="font-display text-4xl md:text-5xl text-foreground mb-2">
+              Sakshi Kannor
             </h2>
+            <p className="font-accent text-xl italic text-muted-foreground mb-6">
+              Founder & Manager, SK Bags
+            </p>
             <div className="space-y-4 font-body text-sm text-muted-foreground leading-relaxed">
               <p>
                 With an unwavering passion for craftsmanship and an eye for timeless design,
-                our founder transformed a dream into one of the most sought-after luxury bag
-                destinations. Every piece in our collection is personally curated to reflect
-                sophistication, empowerment, and modern femininity.
+                Sakshi transformed a dream into one of the most sought-after luxury bag
+                destinations. Every piece in the SK Bags collection is personally curated to
+                reflect sophistication, empowerment, and modern femininity.
               </p>
               <p>
                 From sourcing the finest Italian leathers to collaborating with
                 emerging designers, her journey is rooted in the belief that a bag
                 is more than an accessory — it's a statement of who you are.
               </p>
-              <p>
+              <p className="italic text-foreground/80">
                 "I wanted to create a space where every woman could find a piece
                 that speaks to her soul. Fashion should feel personal, powerful,
                 and effortless."
