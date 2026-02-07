@@ -49,9 +49,9 @@ const NewsletterFooter = () => {
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid md:grid-cols-4 gap-12">
             <div>
-              <h3 className="font-display text-xl tracking-luxe text-primary-foreground mb-4">MAISON</h3>
+              <h3 className="font-display text-xl tracking-luxe text-primary-foreground mb-4">SK BAGS</h3>
               <p className="font-body text-xs text-primary-foreground/50 leading-relaxed">
-                Curating luxury, one bag at a time. Premium handbags for the modern woman.
+                Curating luxury, one bag at a time. Premium handbags for the modern woman. Founded by Sakshi Kannor.
               </p>
             </div>
             <div>
@@ -92,7 +92,7 @@ const NewsletterFooter = () => {
 
           <div className="mt-16 pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="font-body text-xs text-primary-foreground/30">
-              © 2026 Maison. All rights reserved.
+              © 2026 SK Bags. All rights reserved.
             </p>
             <div className="flex gap-6">
               {["Privacy Policy", "Terms of Service", "Shipping"].map((l) => (
